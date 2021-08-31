@@ -5,6 +5,12 @@ spring:
     url: jdbc:mysql://192.168.65.130:3306/liobiomall_ums?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
 
     driver-class-name: com.mysql.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: liobiomall-user
 
 # MapperScan
 # sql映射文件位置

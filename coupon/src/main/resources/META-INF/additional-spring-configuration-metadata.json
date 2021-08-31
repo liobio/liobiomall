@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "spring.datasource.cloud.nacos.discovery.server-addr",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.cloud.nacos.discovery.server-addr."
+  }
+] }
